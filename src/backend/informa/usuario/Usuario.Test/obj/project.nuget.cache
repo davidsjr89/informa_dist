@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/yvx6LVqSQC/CKUIvJEk1mi6g4vtYhsIhgD143F0jGB9t0ksylGS0yMFt5ztsr2bSX6WwgWUxAy7Gu3EAqHa3Q==",
+  "dgSpecHash": "TMsCw4FTgOWFTzgsr+LZvLXSGUTohlyg4lnmAzRFr19nnUSUXcSE2T9w9cJ4B6FEKDb8MPeSZkkY93yFnUO4tw==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\informa_dist\\src\\backend\\informa\\usuario\\Usuario.Test\\Usuario.Test.csproj",
+  "projectFilePath": "c:\\Projetos\\informa_dist\\src\\backend\\informa\\usuario\\Usuario.Test\\Usuario.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\david\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

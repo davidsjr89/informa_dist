@@ -1,0 +1,15 @@
+﻿c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Controllers\HomeController.cs
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Models\User.cs
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Models\UserLogin.cs
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Models\UserToken.cs
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Program.cs
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Repositories\UserRepository.cs
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Services\TokenService.cs
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Startup.cs
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Util\Settings.cs
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\obj\Debug\net5.0\Usuario.API.AssemblyInfo.cs
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\obj\Debug\net5.0\Usuario.API.MvcApplicationPartsAssemblyInfo.cs
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\appsettings.Development.json
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\appsettings.json
+c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Properties\launchSettings.json
