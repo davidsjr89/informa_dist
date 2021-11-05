@@ -100,8 +100,8 @@ Qc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Util\Settings.
 
   
 
- #
- 1& 9
+& ,
+ 1/ B
 
 
   #= B(

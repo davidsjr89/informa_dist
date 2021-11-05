@@ -15,7 +15,7 @@ namespace Usuario.Test
         [Fact]
         public void UsuarioLogin_OK()
         {
-            var resposta = controller.Login(perfilUsuarioLogin("david", "1234562")).Result.Value as UserToken;
+            var resposta = controller.Login(perfilUsuarioLogin("david", "123456")).Result.Value as UserToken;
 
             Assert.True(resposta.Token.Length > 0);
         }

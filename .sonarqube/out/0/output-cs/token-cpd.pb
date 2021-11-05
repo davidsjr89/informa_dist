@@ -1130,7 +1130,7 @@ UseRouting>> 
 ;JJ 
 }KK 	
 }LL 
-}MM ˆ
+}MM ž
 Qc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Util\Settings.cs
 	namespace 	
 Usuario
@@ -1146,15 +1146,16 @@ Qc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Util\Settings.
 class 
 Settings  
 { 
-public 
-static 
-string 
-Secret #
-=$ %
-GerarSenhaAleatoria& 9
-(9 :
-): ;
-;; <
+public 
+readonly 
+static 
+string %
+Secret& ,
+=- .
+GerarSenhaAleatoria/ B
+(B C
+)C D
+;D E
 private 
 static 
 string 

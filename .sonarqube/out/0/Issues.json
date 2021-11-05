@@ -96,69 +96,6 @@
           }
         },
         {
-          "ruleId": "CA2211",
-          "level": "note",
-          "message": "Campos não constantes não devem ser visíveis",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Util/Settings.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 30,
-                  "endLine": 7,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1104",
-          "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Util/Settings.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 30,
-                  "endLine": 7,
-                  "endColumn": 60
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2223",
-          "level": "warning",
-          "message": "Change the visibility of 'Secret' or make it 'const' or 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Util/Settings.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 30,
-                  "endLine": 7,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S3400",
           "level": "warning",
           "message": "Remove this method and declare a constant for this value.",
@@ -265,22 +202,6 @@
         }
       ],
       "rules": {
-        "CA2211": {
-          "id": "CA2211",
-          "shortDescription": "Campos não constantes não devem ser visíveis",
-          "fullDescription": "Os campos estáticos que não são nem constantes nem somente leitura não são thread-safe. O acesso a esse campo deve ser cuidadosamente controlado e requer técnicas de programação avançadas para sincronizar o acesso com o objeto de classe.",
-          "defaultLevel": "note",
-          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2211",
-          "properties": {
-            "category": "Usage",
-            "isEnabledByDefault": true,
-            "tags": [
-              "PortedFromFxCop",
-              "Telemetry",
-              "EnabledRuleInAggressiveMode"
-            ]
-          }
-        },
         "CS1998": {
           "id": "CS1998",
           "shortDescription": "O método assíncrono não possui operadores 'await' e será executado de forma síncrona",
@@ -292,22 +213,6 @@
             "tags": [
               "Compiler",
               "Telemetry"
-            ]
-          }
-        },
-        "S1104": {
-          "id": "S1104",
-          "shortDescription": "Fields should not have public accessibility",
-          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
-          "properties": {
-            "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope"
             ]
           }
         },
@@ -353,22 +258,6 @@
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1643",
           "properties": {
             "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope"
-            ]
-          }
-        },
-        "S2223": {
-          "id": "S2223",
-          "shortDescription": "Non-constant static fields should not be visible",
-          "fullDescription": "A static field that is neither constant nor read-only is not thread-safe. Correctly accessing these fields from different threads needs synchronization with locks. Improper synchronization may lead to unexpected results, thus publicly visible static fields are best suited for storing non-changing data shared by many consumers. To enforce this intent, these fields should be marked readonly or converted to constants.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2223",
-          "properties": {
-            "category": "Critical Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

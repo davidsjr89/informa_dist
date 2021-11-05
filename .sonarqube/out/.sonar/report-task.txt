@@ -2,5 +2,5 @@ projectKey=informa_dist
 serverUrl=http://localhost:9000
 serverVersion=9.1.0.47736
 dashboardUrl=http://localhost:9000/dashboard?id=informa_dist
-ceTaskId=AXzxRDYJ9Qgh1uo2IRkk
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXzxRDYJ9Qgh1uo2IRkk
+ceTaskId=AXzxXXF09Qgh1uo2IRk2
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXzxXXF09Qgh1uo2IRk2

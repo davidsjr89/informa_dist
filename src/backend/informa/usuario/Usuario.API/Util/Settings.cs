@@ -4,7 +4,7 @@ namespace Usuario.API.Util
 {
     public static class Settings
     {
-        public static string Secret = GerarSenhaAleatoria();
+        public readonly static string Secret = GerarSenhaAleatoria();
         private static string GerarSenhaAleatoria()
         {
             string chars = "abcdefghjkmnpqrstuvwxyz023456789";
