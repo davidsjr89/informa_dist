@@ -5,9 +5,9 @@
     {
       "tool": {
         "name": "Compilador do Microsoft (R) Visual C#",
-        "version": "3.11.0.0",
-        "fileVersion": "3.11.0-4.21451.6 (0b1a27fd)",
-        "semanticVersion": "3.11.0",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.0-6.21526.21 (c7d6f9fa)",
+        "semanticVersion": "4.0.0",
         "language": "pt-BR"
       },
       "results": [
@@ -18,12 +18,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Controllers/HomeController.cs",
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Repositories/RepositorioUsuario.cs",
                 "region": {
-                  "startLine": 16,
-                  "startColumn": 50,
-                  "endLine": 16,
-                  "endColumn": 55
+                  "startLine": 21,
+                  "startColumn": 33,
+                  "endLine": 21,
+                  "endColumn": 49
                 }
               }
             }
@@ -33,18 +33,18 @@
           }
         },
         {
-          "ruleId": "S1118",
+          "ruleId": "CS1998",
           "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Repositories/UserRepository.cs",
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Repositories/RepositorioUsuario.cs",
                 "region": {
-                  "startLine": 6,
-                  "startColumn": 18,
-                  "endLine": 6,
-                  "endColumn": 32
+                  "startLine": 48,
+                  "startColumn": 33,
+                  "endLine": 48,
+                  "endColumn": 47
                 }
               }
             }
@@ -62,9 +62,9 @@
               "resultFile": {
                 "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Program.cs",
                 "region": {
-                  "startLine": 12,
+                  "startLine": 6,
                   "startColumn": 18,
-                  "endLine": 12,
+                  "endLine": 6,
                   "endColumn": 25
                 }
               }
@@ -75,81 +75,55 @@
           }
         },
         {
-          "ruleId": "S125",
+          "ruleId": "S4136",
           "level": "warning",
-          "message": "Remove this commented out code.",
+          "message": "All 'DataContext' method overloads should be adjacent.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Startup.cs",
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Data/DataContext.cs",
                 "region": {
-                  "startLine": 34,
-                  "startColumn": 17,
-                  "endLine": 34,
-                  "endColumn": 50
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Data/DataContext.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 16,
+                  "endLine": 10,
+                  "endColumn": 27
                 }
               }
             }
           ],
           "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3400",
-          "level": "warning",
-          "message": "Remove this method and declare a constant for this value.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Controllers/HomeController.cs",
-                "region": {
-                  "startLine": 32,
-                  "startColumn": 23,
-                  "endLine": 32,
-                  "endColumn": 30
-                }
-              }
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Non-adjacent overload"
             }
-          ],
-          "properties": {
-            "warningLevel": 1
           }
         },
         {
-          "ruleId": "S3400",
+          "ruleId": "S1185",
           "level": "warning",
-          "message": "Remove this method and declare a constant for this value.",
+          "message": "Remove this method 'OnModelCreating' to simply inherit its behavior.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Controllers/HomeController.cs",
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Data/DataContext.cs",
                 "region": {
-                  "startLine": 36,
-                  "startColumn": 23,
-                  "endLine": 36,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2245",
-          "level": "warning",
-          "message": "Make sure that using this pseudorandom number generator is safe here.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Util/Settings.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 29,
-                  "endLine": 12,
-                  "endColumn": 41
+                  "startLine": 11,
+                  "startColumn": 9,
+                  "endLine": 15,
+                  "endColumn": 10
                 }
               }
             }
@@ -167,10 +141,31 @@
               "resultFile": {
                 "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Util/Settings.cs",
                 "region": {
-                  "startLine": 15,
+                  "startLine": 20,
                   "startColumn": 17,
-                  "endLine": 15,
-                  "endColumn": 83
+                  "endLine": 20,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'user' to 'usuario' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Repositories/RepositorioUsuario.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 53,
+                  "endLine": 48,
+                  "endColumn": 57
                 }
               }
             }
@@ -188,9 +183,9 @@
               "resultFile": {
                 "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Startup.cs",
                 "region": {
-                  "startLine": 64,
+                  "startLine": 67,
                   "startColumn": 30,
-                  "endLine": 65,
+                  "endLine": 68,
                   "endColumn": 34
                 }
               }
@@ -233,14 +228,14 @@
             ]
           }
         },
-        "S125": {
-          "id": "S125",
-          "shortDescription": "Sections of code should not be commented out",
-          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+        "S1185": {
+          "id": "S1185",
+          "shortDescription": "Overriding members should do more than simply call the same member in the base class",
+          "fullDescription": "Overriding a method just to call the same method from the base class without performing any other actions is useless and misleading. The only time this is justified is in sealed overriding methods, where the effect is to lock in the parent class behavior. This rule ignores overrides of Equals and GetHashCode.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1185",
           "properties": {
-            "category": "Major Code Smell",
+            "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
@@ -266,36 +261,20 @@
             ]
           }
         },
-        "S2245": {
-          "id": "S2245",
-          "shortDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive",
-          "fullDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive. For example, it has led in the past to the following vulnerabilities:",
+        "S4136": {
+          "id": "S4136",
+          "shortDescription": "Method overloads should be grouped together",
+          "fullDescription": "For clarity, all overloads of the same method should be grouped together. That lets both users and maintainers quickly understand all the current available options.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2245",
-          "properties": {
-            "category": "Critical Security Hotspot",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "NotConfigurable"
-            ]
-          }
-        },
-        "S3400": {
-          "id": "S3400",
-          "shortDescription": "Methods should not return constants",
-          "fullDescription": "There’s no point in forcing the overhead of a method call for a method that always returns the same constant value. Even worse, the fact that a method call must be made will likely mislead developers who call the method thinking that something more is done. Declare a constant instead.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3400",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4136",
           "properties": {
             "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
               "SonarWay",
-              "MainSourceScope"
+              "MainSourceScope",
+              "TestSourceScope"
             ]
           }
         },
@@ -313,6 +292,23 @@
               "SonarWay",
               "MainSourceScope",
               "NotConfigurable"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "The name of a parameter in an externally visible. This rule raises an issue when method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
             ]
           }
         }

@@ -5,5 +5,5 @@
   <FilesToAnalyzePath>c:\Projetos\informa_dist\.sonarqube\conf\0\FilesToAnalyze.txt</FilesToAnalyzePath>
   <OutPath>c:\Projetos\informa_dist\.sonarqube\out\0</OutPath>
   <ProjectType>Product</ProjectType>
-  <TargetFramework>net5.0</TargetFramework>
+  <TargetFramework>net6.0</TargetFramework>
 </SonarProjectConfig>

@@ -1,18 +1,24 @@
-ô
-^c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Controllers\HomeController.cs 8r%	
- !"#$%&'()*xÇ(o
-Oc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Models\User.cs 8r	
-j
+€
+^c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Controllers\HomeController.cs( 8rO	
+ !"#$%')*+,./012346789:;<=>?ABCDEFGIKMNPQRSTUVXYZ\]^_x
+Ç$%')+34689:<>FGIKMUVXYZ\s
+Tc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Data\DataContext.cs 8r	
+Çr
+Oc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Models\User.cs 8r	
+j
 Tc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Models\UserLogin.cs 8r
 f
-Tc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Models\UserToken.cs 8rv
-Kc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Program.cs 8r
-ÇÇ
-_c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Repositories\UserRepository.cs 8r	
-xÇê
+Tc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Models\UserToken.cs 8rp
+Kc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Program.cs 8r	
+Ç
+z
+dc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Repositories\IRepositorioUsuario.csr	
+ø
+cc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Repositories\RepositorioUsuario.cs 8r9
+ !#$%&')*+,-.012346789:<=>?@ABCxÇ %&+,-2389>?@ê
 Yc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Services\TokenService.cs 8r	
- Ç	ª
-Kc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Startup.cs 8j")+rC	
- !#$%&'(*,-./012356789:;<>@ABCDEGHIJKLMxÇ #$%/179:;>@DEGIy
-Qc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Util\Settings.cs 8r	
-xÇ
+ Ç	Ω
+Kc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Startup.cs 8rH	
+ !"#$%&'()*+,-./02345689:;<=>?ACDEFGHJKLMNOPxÇ !#$%'()24:<=>ACGHJL
+Qc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Util\Settings.cs 8r	
+xÇ

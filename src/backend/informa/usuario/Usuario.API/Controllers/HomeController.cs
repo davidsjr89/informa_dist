@@ -11,11 +11,30 @@ namespace Usuario.API.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
+        private readonly IRepositorioUsuario _repositorioUsuario;
+        public HomeController(IRepositorioUsuario repositorioUsuario)
+        {
+            _repositorioUsuario = repositorioUsuario ?? throw new System.ArgumentNullException(nameof(repositorioUsuario));
+        }
+
+        [HttpGet]
+        [Route("buscar/{id}")]
+        public async Task<ActionResult<dynamic>> BuscarPorId(int id)
+        {
+            if (!ModelState.IsValid) NotFound(new { message = "Todos os campos devem ser preenchidos" });
+            var user = await _repositorioUsuario.BuscarPorId(id);
+
+            if (user == null) return NotFound(new { message = "Usuário ou senha inválidos" });
+
+            return user;
+        }
+
         [HttpPost]
         [Route("login")]
         public async Task<ActionResult<dynamic>> Login(UserLogin model)
         {
-            var user = UserRepository.Get(model.Nome, model.Senha);
+            if (!ModelState.IsValid) NotFound(new { message = "Todos os campos devem ser preenchidos" });
+            var user = await _repositorioUsuario.Login(model.Nome, model.Senha);
 
             if (user == null) return NotFound(new { message = "Usuário ou senha inválidos" });
 
@@ -25,18 +44,52 @@ namespace Usuario.API.Controllers
         }
 
         [HttpPost]
-
-        [HttpGet]
-        [Route("anonima")]
-        [AllowAnonymous]
-        public string Anonima() => "Anônimo";
-        [HttpGet]
-        [Route("autenticado")]
-        [Authorize]
-        public string Autenticado() => "Autenticado";
-        [HttpGet]
-        [Route("admin")]
+        [Route("cadastrar")]
         [Authorize(Roles = "administrador")]
-        public string Funcionario() => User.Identity.Name;
+        public async Task<ActionResult<dynamic>> Cadastrar(User model)
+        {
+            if (!ModelState.IsValid) return NotFound(new { message = "Todos os campos devem ser preenchidos" });
+            var user = await _repositorioUsuario.BuscarPorNome(model.Nome);
+
+            if (user == null)
+            {
+                var resposta = await _repositorioUsuario.CadastrarUsuario(model);
+                var token = TokenService.GenerateToken(model);
+                resposta.Senha = "";
+                var UserToken = new UserToken { User = resposta, Token = token };
+                return Created("", UserToken);
+            }
+            return NotFound(new { message = "Já existe informação no banco de dados." });
+        }
+
+        [HttpDelete]
+        [Route("deletar/{id}")]
+        [Authorize(Roles = "administrador")]
+        public async Task<ActionResult<dynamic>> Deletar(int id)
+        {
+            if(!ModelState.IsValid) return NotFound(new { message = "Todos os campos devem ser preenchidos" });
+            var user = await _repositorioUsuario.BuscarPorId(id);
+
+            if (user == null) return NotFound(new { message = "Nâo existe usuário." });
+
+            var resposta = await _repositorioUsuario.DeletarUsuario(user);
+
+            return Ok(resposta);
+        }
+
+        [HttpPut]
+        [Route("atualizar/{id}")]
+        [Authorize(Roles = "administrador")]
+        public async Task<ActionResult<dynamic>> Atualizar(int id, User model)
+        {
+            if (!ModelState.IsValid) return NotFound(new { message = "Todos os campos devem ser preenchidos" });
+            var user = await _repositorioUsuario.BuscarPorId(id);
+
+            if (user == null) return NotFound(new { message = "Nâo existe usuário." });
+            model.Id = user.Id;
+            var resposta = await _repositorioUsuario.AtualizarUsuario(model);
+
+            return Ok(resposta);
+        }
     }
 }

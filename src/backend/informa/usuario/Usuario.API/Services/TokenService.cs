@@ -21,8 +21,8 @@ namespace Usuario.API.Services
                     new Claim(ClaimTypes.Name, user.Nome.ToString()),
                     new Claim(ClaimTypes.Role, user.Role.ToString())
                 }),
-                Expires = DateTime.UtcNow.AddHours(8), 
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature) 
+                Expires = DateTime.UtcNow.AddHours(8),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
             tokenHandler.CreateToken(tokenDescriptor);
             var token = tokenHandler.CreateToken(tokenDescriptor);

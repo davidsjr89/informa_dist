@@ -5,25 +5,214 @@
     {
       "tool": {
         "name": "Compilador do Microsoft (R) Visual C#",
-        "version": "3.11.0.0",
-        "fileVersion": "3.11.0-4.21451.6 (0b1a27fd)",
-        "semanticVersion": "3.11.0",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.0-6.21526.21 (c7d6f9fa)",
+        "semanticVersion": "4.0.0",
         "language": "pt-BR"
       },
       "results": [
         {
-          "ruleId": "CA1822",
-          "level": "note",
-          "message": "O membro 'perfilUsuarioLogin' não acessa os dados da instância e pode ser marcado como estático",
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Test/UsuarioTest.cs",
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
                 "region": {
-                  "startLine": 28,
+                  "startLine": 34,
                   "startColumn": 27,
-                  "endLine": 28,
-                  "endColumn": 45
+                  "endLine": 34,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 27,
+                  "endLine": 22,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 27,
+                  "endLine": 75,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 27,
+                  "endLine": 57,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 27,
+                  "endLine": 41,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 27,
+                  "endLine": 101,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 27,
+                  "endLine": 85,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 27,
+                  "endLine": 114,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 27,
+                  "endLine": 137,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 27,
+                  "endLine": 177,
+                  "endColumn": 41
                 }
               }
             }
@@ -34,19 +223,19 @@
         }
       ],
       "rules": {
-        "CA1822": {
-          "id": "CA1822",
-          "shortDescription": "Marcar membros como estáticos",
-          "fullDescription": "Os membros que não acessam os dados da instância nem chamam os métodos da instância podem ser marcados como estáticos. Depois que você marcar os métodos como estáticos, o compilador emitirá os sites de chamada não virtuais para esses membros. Isso pode oferecer um ganho de desempenho mensurável para códigos sensíveis ao desempenho.",
-          "defaultLevel": "note",
-          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+        "S3433": {
+          "id": "S3433",
+          "shortDescription": "Test method signatures should be correct",
+          "fullDescription": "A method is detected as test method if marked with one of the following attributes [TestMethod] or [DataTestMethod] (for mstest), [Fact] or [Theory] (for xunit) or [Test], [TestCase], [TestCaseSource] or [Theory] (for nunit). However, whether or not they have a test attribute, non-public methods are not recognized as tests, and therefore not executed. Neither are async void methods, or methods with generics anywhere in their signatures.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3433",
           "properties": {
-            "category": "Performance",
+            "category": "Blocker Code Smell",
             "isEnabledByDefault": true,
             "tags": [
-              "PortedFromFxCop",
-              "Telemetry",
-              "EnabledRuleInAggressiveMode"
+              "C#",
+              "SonarWay",
+              "TestSourceScope"
             ]
           }
         }
