@@ -1,7 +1,6 @@
-€
-^c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Controllers\HomeController.cs( 8rO	
- !"#$%')*+,./012346789:;<=>?ABCDEFGIKMNPQRSTUVXYZ\]^_x
-Ç$%')+34689:<>FGIKMUVXYZ\s
+È
+^c:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Controllers\HomeController.cs. 8rY	
+!"#$%&(*+-./01246789;<=>?@ACDEFGHIJKLNOPQRSTVXZ[]^_`abcefgijklxÇ!%&(*12468@ACEFGIKSTVXZbcefgis
 Tc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Data\DataContext.cs 8r	
 Çr
 Oc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Models\User.cs 8r	
@@ -17,8 +16,8 @@ dc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Repositories\I
 cc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Repositories\RepositorioUsuario.cs 8r9
  !#$%&')*+,-.012346789:<=>?@ABCxÇ %&+,-2389>?@ê
 Yc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Services\TokenService.cs 8r	
- Ç	Ω
-Kc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Startup.cs 8rH	
- !"#$%&'()*+,-./02345689:;<=>?ACDEFGHJKLMNOPxÇ !#$%'()24:<=>ACGHJL
+ Ç	æ
+Kc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Startup.cs 8rH	
+ !"#$%&'()*+,-./02345689:;<=>?ACDEFGHJKLMNOPxÇ !#$%'()24:<=>ACEFGJL
 Qc:\Projetos\informa_dist\src\backend\informa\usuario\Usuario.API\Util\Settings.cs 8r	
 xÇ

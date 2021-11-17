@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 using System.Threading.Tasks;
 using Usuario.API.Models;
 using Usuario.API.Repositories;
@@ -27,6 +28,18 @@ namespace Usuario.API.Controllers
             if (user == null) return NotFound(new { message = "Usuário ou senha inválidos" });
 
             return user;
+        }
+
+        [HttpGet]
+        [Route("lista")]
+        public async Task<ActionResult<dynamic>> Lista()
+        {
+            if (!ModelState.IsValid) NotFound(new { message = "Todos os campos devem ser preenchidos" });
+            var listaUsuario = await _repositorioUsuario.ListaUsuario();
+
+            if (listaUsuario == null) return NotFound(new { message = "Usuário ou senha inválidos" });
+
+            return listaUsuario.ToList();
         }
 
         [HttpPost]

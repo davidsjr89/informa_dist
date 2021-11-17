@@ -1,6 +1,7 @@
 using Bogus;
 using Bogus.Extensions.Brazil;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using Usuario.API.Models;
@@ -191,6 +192,27 @@ namespace Usuario.Teste
             var usuarioPorIdResposta = JsonConvert.DeserializeObject<User>(usuarioPorId.Content.ReadAsStringAsync().Result);
             await TestClient.DeleteAsync(URL + $"deletar/{resultado.User.Id}");
             Assert.Equal(resultado.User.Nome, usuarioPorIdResposta.Nome);
+        }
+
+
+        [Fact]
+        public async void Lista_OK()
+        {
+            User usuario = Usuario();
+            var login = UserLogin();
+            var response = await TestClient.PostAsJsonAsync(URL + "login", login);
+            var registrationResponse = await response.Content.ReadAsStringAsync();
+
+            var retorno = JsonConvert.DeserializeObject<UserToken>(registrationResponse);
+            TestClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", retorno.Token);
+
+            var resposta = await TestClient.PostAsJsonAsync(URL + "cadastrar", usuario);
+            var resultado = JsonConvert.DeserializeObject<UserToken>(resposta.Content.ReadAsStringAsync().Result);
+
+            var listaUsuario = await TestClient.GetAsync(URL + $"lista");
+            var usuarioPorIdResposta = JsonConvert.DeserializeObject<List<User>>(listaUsuario.Content.ReadAsStringAsync().Result);
+            await TestClient.DeleteAsync(URL + $"deletar/{resultado.User.Id}");
+            Assert.Equal(resultado.User.Nome, usuarioPorIdResposta[1].Nome);
         }
     }
 }

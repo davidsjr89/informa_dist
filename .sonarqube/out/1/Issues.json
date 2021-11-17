@@ -20,30 +20,9 @@
               "resultFile": {
                 "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
                 "region": {
-                  "startLine": 34,
+                  "startLine": 23,
                   "startColumn": 27,
-                  "endLine": 34,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3433",
-          "level": "warning",
-          "message": "Make this test method non-'async' or return 'Task'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
-                "region": {
-                  "startLine": 22,
-                  "startColumn": 27,
-                  "endLine": 22,
+                  "endLine": 23,
                   "endColumn": 35
                 }
               }
@@ -62,9 +41,30 @@
               "resultFile": {
                 "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
                 "region": {
-                  "startLine": 75,
+                  "startLine": 35,
                   "startColumn": 27,
-                  "endLine": 75,
+                  "endLine": 35,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 27,
+                  "endLine": 76,
                   "endColumn": 57
                 }
               }
@@ -83,30 +83,9 @@
               "resultFile": {
                 "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
                 "region": {
-                  "startLine": 57,
+                  "startLine": 42,
                   "startColumn": 27,
-                  "endLine": 57,
-                  "endColumn": 58
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3433",
-          "level": "warning",
-          "message": "Make this test method non-'async' or return 'Task'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
-                "region": {
-                  "startLine": 41,
-                  "startColumn": 27,
-                  "endLine": 41,
+                  "endLine": 42,
                   "endColumn": 39
                 }
               }
@@ -125,9 +104,9 @@
               "resultFile": {
                 "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
                 "region": {
-                  "startLine": 101,
+                  "startLine": 102,
                   "startColumn": 27,
-                  "endLine": 101,
+                  "endLine": 102,
                   "endColumn": 51
                 }
               }
@@ -146,9 +125,30 @@
               "resultFile": {
                 "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
                 "region": {
-                  "startLine": 85,
+                  "startLine": 58,
                   "startColumn": 27,
-                  "endLine": 85,
+                  "endLine": 58,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 27,
+                  "endLine": 86,
                   "endColumn": 37
                 }
               }
@@ -167,9 +167,9 @@
               "resultFile": {
                 "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
                 "region": {
-                  "startLine": 114,
+                  "startLine": 115,
                   "startColumn": 27,
-                  "endLine": 114,
+                  "endLine": 115,
                   "endColumn": 39
                 }
               }
@@ -188,9 +188,9 @@
               "resultFile": {
                 "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
                 "region": {
-                  "startLine": 137,
+                  "startLine": 138,
                   "startColumn": 27,
-                  "endLine": 137,
+                  "endLine": 138,
                   "endColumn": 62
                 }
               }
@@ -209,9 +209,30 @@
               "resultFile": {
                 "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
                 "region": {
-                  "startLine": 177,
+                  "startLine": 199,
                   "startColumn": 27,
-                  "endLine": 177,
+                  "endLine": 199,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.Teste/HomeControllerTest.cs",
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 27,
+                  "endLine": 178,
                   "endColumn": 41
                 }
               }

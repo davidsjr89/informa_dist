@@ -183,10 +183,10 @@
               "resultFile": {
                 "uri": "file:///c:/Projetos/informa_dist/src/backend/informa/usuario/Usuario.API/Startup.cs",
                 "region": {
-                  "startLine": 67,
-                  "startColumn": 30,
-                  "endLine": 68,
-                  "endColumn": 34
+                  "startLine": 69,
+                  "startColumn": 17,
+                  "endLine": 69,
+                  "endColumn": 41
                 }
               }
             }
